@@ -11,7 +11,7 @@ export default ({ reload }) => {
     setTitle('')
   }
 
-  addTodo.displayName = 'todo'
+  
 
   return (
     <form onSubmit={addTodo}>
@@ -19,3 +19,5 @@ export default ({ reload }) => {
     </form>
   )
 }
+
+addTodo.displayName = 'todo';
