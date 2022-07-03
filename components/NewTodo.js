@@ -21,4 +21,3 @@ export default ({ reload }) => {
   )
 }
 
-addTodo.displayName = 'todo';
