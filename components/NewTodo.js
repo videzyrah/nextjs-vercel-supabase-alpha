@@ -11,6 +11,8 @@ export default ({ reload }) => {
     setTitle('')
   }
 
+  addTodo.displayName = 'todo'
+
   return (
     <form onSubmit={addTodo}>
       <input value={title} onChange={(e) => setTitle(e.target.value)} />
